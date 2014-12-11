@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# import time
+import time
 
-# start = time.time()
+#start = time.time()
     
 cases = int(raw_input())
 for i in range(0, cases):
@@ -22,5 +22,5 @@ for i in range(0, cases):
                 print "Case #" + str(i+1) + ": " + str(j+1) + " " + str(k+1)
                     
 
-# end = time.time()
-# print end - start
+#end = time.time()
+#print end - start

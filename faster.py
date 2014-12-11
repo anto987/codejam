@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# import time
+import time
 
-# start = time.time()
+#start = time.time()
 
 cases = int(raw_input())
 
@@ -24,13 +24,14 @@ for i in range(0, cases):
     for j in range(0, items):
         for k in range(j+1, items):
 
-            if item_cost[j][0] + item_cost[k][0] > credit:
+            cost = item_cost[j][0] + item_cost[k][0]
+            if cost > credit:
                 # As item_cost is ordered, if we get to the state when the sum of both items
                 # is greater than credit, we stop searching for the solution in this iteration.
                 break
 
 
-            if (item_cost[j][0] + item_cost[k][0]) == credit:
+            if cost == credit:
                 # Solution found!
 
                 # We get the initial item indexes from the second element of the list
@@ -47,6 +48,6 @@ for i in range(0, cases):
                 print "Case #" + str(i+1) + ": " + str(index1) + " " + str(index2)
 
 
-# end = time.time()
-# print end - start
+#end = time.time()
+#print end - start
 
