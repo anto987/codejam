@@ -15,7 +15,7 @@ https://code.google.com/codejam/contest/351101/dashboard#s=p0
 
 Both scripts (basic.py and faster.py takes data from raw_input).
 
-There are 2 sets of sample input are included:
+There are 2 sets of sample input included:
 
 A-large-practice.in and A-small-practice.in
 
