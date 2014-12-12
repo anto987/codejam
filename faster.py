@@ -46,6 +46,7 @@ for i in range(0, cases):
                     index2, index1 = index1, index2
 
                 print "Case #" + str(i+1) + ": " + str(index1) + " " + str(index2)
+                break
 
 
 #end = time.time()
